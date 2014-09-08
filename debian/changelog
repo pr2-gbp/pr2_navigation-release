@@ -1,0 +1,47 @@
+ros-hydro-pr2-navigation-self-filter (0.1.22-0raring) raring; urgency=high
+
+
+
+ -- Maintained by Eitan Marder-Eppstein <eitan@willowgarage.com>  Mon, 08 Sep 2014 04:00:00 -0000
+
+ros-hydro-pr2-navigation-self-filter (0.1.21-0raring) raring; urgency=high
+
+
+
+ -- Maintained by Eitan Marder-Eppstein <eitan@willowgarage.com>  Sat, 06 Sep 2014 04:00:00 -0000
+
+ros-hydro-pr2-navigation-self-filter (0.1.20-0raring) raring; urgency=high
+
+  * 0.1.19
+  * Added changelogs
+  * 0.1.18
+  * Generating changelogs; preparing for release
+  * Contributors: TheDash
+
+ -- Maintained by Eitan Marder-Eppstein <eitan@willowgarage.com>  Sat, 06 Sep 2014 04:00:00 -0000
+
+ros-hydro-pr2-navigation-self-filter (0.1.19-0raring) raring; urgency=high
+
+  * 0.1.18
+  * Generating changelogs; preparing for release
+  * Contributors: TheDash
+
+ -- Maintained by Eitan Marder-Eppstein <eitan@willowgarage.com>  Sat, 06 Sep 2014 04:00:00 -0000
+
+ros-hydro-pr2-navigation-self-filter (0.1.18-0raring) raring; urgency=high
+
+  * catkinize packages
+  * Add ignores.
+  * use less bullet and more tf
+  * Navigation is just going to use XYZ points from now on
+  * Porting pr2_navigation_self filter from PointCloud to PointCloud2. Still need to test.
+  * Fixing linking issue on oneiric
+  * Fixes for fuerte
+  * Remove deprecated API usage
+  * Adding descriptions of each package to manifest files
+  * Copying pr2_navigation from staging area to stacks section of the repoistory
+  * Contributors: Austin Hendrix, Brian Gerkey, Eitan Marder-Eppstein, Kei Okada, Vincent Rabaud, eitan
+
+ -- Maintained by Eitan Marder-Eppstein <eitan@willowgarage.com>  Sat, 06 Sep 2014 04:00:00 -0000
+
+

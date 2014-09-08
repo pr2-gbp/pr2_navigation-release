@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-navigation-global
+Section: misc
+Priority: extra
+Maintainer: Maintained by Eitan Marder-Eppstein <eitan@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-amcl, ros-hydro-catkin, ros-hydro-joint-trajectory-generator, ros-hydro-move-base, ros-hydro-pr2-machine, ros-hydro-pr2-move-base, ros-hydro-pr2-navigation-config, ros-hydro-pr2-tuck-arms-action, ros-hydro-topic-tools
+Homepage: http://ros.org/wiki/pr2_navigation_global
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-navigation-global
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-amcl, ros-hydro-joint-trajectory-generator, ros-hydro-move-base, ros-hydro-pr2-machine, ros-hydro-pr2-move-base, ros-hydro-pr2-navigation-config, ros-hydro-pr2-tuck-arms-action, ros-hydro-topic-tools
+Description: This package holds XML files for running the

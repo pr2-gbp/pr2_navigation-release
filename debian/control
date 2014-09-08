@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-navigation-teleop
+Section: misc
+Priority: extra
+Maintainer: Maintained by Eitan Marder-Eppstein <eitan@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-pr2-machine, ros-hydro-pr2-teleop, ros-hydro-topic-tools
+Homepage: http://ros.org/wiki/pr2_navigation_teleop
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-navigation-teleop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-pr2-machine, ros-hydro-pr2-teleop, ros-hydro-topic-tools
+Description: This package holds a special teleop configuration for the PR2 robot that should be used when running applications that use autonomous navigation.

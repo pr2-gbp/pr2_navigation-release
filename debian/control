@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-navigation
+Section: misc
+Priority: extra
+Maintainer: Maintained by Eitan Marder-Eppstein <eitan@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin
+Homepage: http://ros.org/wiki/pr2_navigation
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-laser-tilt-controller-filter, ros-hydro-pr2-move-base, ros-hydro-pr2-navigation-config, ros-hydro-pr2-navigation-global, ros-hydro-pr2-navigation-local, ros-hydro-pr2-navigation-perception, ros-hydro-pr2-navigation-self-filter, ros-hydro-pr2-navigation-slam, ros-hydro-pr2-navigation-teleop, ros-hydro-semantic-point-annotator
+Description: The pr2_navigation stack holds common configuration options for running the

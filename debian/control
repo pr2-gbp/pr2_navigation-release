@@ -1,0 +1,12 @@
+Source: ros-hydro-semantic-point-annotator
+Section: misc
+Priority: extra
+Maintainer: Radu Bogdan Rusu <radu@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-hydro-catkin, ros-hydro-pcl-ros, ros-hydro-roscpp, ros-hydro-tf
+Homepage: http://pr.willowgarage.com
+Standards-Version: 3.9.2
+
+Package: ros-hydro-semantic-point-annotator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, ros-hydro-pcl-ros, ros-hydro-roscpp, ros-hydro-tf
+Description: A node which annotates 3D point cloud data with semantic labels.

@@ -1,0 +1,45 @@
+ros-hydro-pr2-move-base (0.1.22-0precise) precise; urgency=high
+
+
+
+ -- Maintained by Eitan Marder-Eppstein <eitan@willowgarage.com>  Mon, 08 Sep 2014 04:00:00 -0000
+
+ros-hydro-pr2-move-base (0.1.21-0precise) precise; urgency=high
+
+
+
+ -- Maintained by Eitan Marder-Eppstein <eitan@willowgarage.com>  Sat, 06 Sep 2014 04:00:00 -0000
+
+ros-hydro-pr2-move-base (0.1.20-0precise) precise; urgency=high
+
+  * 0.1.19
+  * Added changelogs
+  * 0.1.18
+  * Generating changelogs; preparing for release
+  * Contributors: TheDash
+
+ -- Maintained by Eitan Marder-Eppstein <eitan@willowgarage.com>  Sat, 06 Sep 2014 04:00:00 -0000
+
+ros-hydro-pr2-move-base (0.1.19-0precise) precise; urgency=high
+
+  * 0.1.18
+  * Generating changelogs; preparing for release
+  * Contributors: TheDash
+
+ -- Maintained by Eitan Marder-Eppstein <eitan@willowgarage.com>  Sat, 06 Sep 2014 04:00:00 -0000
+
+ros-hydro-pr2-move-base (0.1.18-0precise) precise; urgency=high
+
+  * catkinize packages
+  * Add ignores.
+  * Updating to fix head pointing for pr2_move_base
+  * Testing on the robot with some updates to make things work with the new local planner
+  * Transplanting arm tucking, checking AC power, and lowering the spine from trunk
+  * A bunch of updates to pr2_move_base, fixing indentation, workaround for actionlib server bug, and should restore laser properly now
+  * pr2_move_base now points the head forward when it gets a new goal
+  * Adding pr2_move_base to manage the tilt laser resource for the move_base node on the pr2
+  * Contributors: Austin Hendrix, Eitan Marder-Eppstein, Kei Okada, eitan
+
+ -- Maintained by Eitan Marder-Eppstein <eitan@willowgarage.com>  Sat, 06 Sep 2014 04:00:00 -0000
+
+

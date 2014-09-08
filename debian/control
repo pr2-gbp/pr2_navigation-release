@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-navigation-config
+Section: misc
+Priority: extra
+Maintainer: Maintained by Eitan Marder-Eppstein <eitan@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-move-base
+Homepage: http://pr.willowgarage.com/wiki
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-navigation-config
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-move-base
+Description: This package holds common configuration files for running the

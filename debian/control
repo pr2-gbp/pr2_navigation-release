@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-navigation-self-filter
+Section: misc
+Priority: extra
+Maintainer: Maintained by Eitan Marder-Eppstein <eitan@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), libbullet-dev, ros-hydro-catkin, ros-hydro-filters, ros-hydro-pcl-ros, ros-hydro-resource-retriever, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-tf, ros-hydro-urdf, ros-hydro-visualization-msgs
+Homepage: http://ros.org/wiki/pr2_navigation_self_filter
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-navigation-self-filter
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libbullet-dev, ros-hydro-filters, ros-hydro-pcl-ros, ros-hydro-resource-retriever, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-tf, ros-hydro-urdf, ros-hydro-visualization-msgs
+Description: Filters the robot's body out of point clouds.

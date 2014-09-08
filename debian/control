@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-navigation-perception
+Section: misc
+Priority: extra
+Maintainer: Maintained by Eitan Marder-Eppstein <eitan@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-dynamic-reconfigure, ros-hydro-filters, ros-hydro-geometry-msgs, ros-hydro-laser-filters, ros-hydro-laser-geometry, ros-hydro-laser-tilt-controller-filter, ros-hydro-message-filters, ros-hydro-pcl-ros, ros-hydro-pr2-machine, ros-hydro-pr2-navigation-self-filter, ros-hydro-roscpp, ros-hydro-semantic-point-annotator, ros-hydro-sensor-msgs, ros-hydro-tf, ros-hydro-topic-tools
+Homepage: http://ros.org/wiki/pr2_navigation_perception
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-navigation-perception
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-dynamic-reconfigure, ros-hydro-filters, ros-hydro-geometry-msgs, ros-hydro-laser-filters, ros-hydro-laser-geometry, ros-hydro-laser-tilt-controller-filter, ros-hydro-message-filters, ros-hydro-pcl-ros, ros-hydro-pr2-machine, ros-hydro-pr2-navigation-self-filter, ros-hydro-roscpp, ros-hydro-semantic-point-annotator, ros-hydro-sensor-msgs, ros-hydro-tf, ros-hydro-topic-tools
+Description: This package holds navigation-specific sensor configuration options and launch files for the PR2.

@@ -1,0 +1,63 @@
+ros-indigo-pr2-navigation-teleop (0.1.25-0saucy) saucy; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Fri, 06 Feb 2015 05:00:00 -0000
+
+ros-indigo-pr2-navigation-teleop (0.1.24-0saucy) saucy; urgency=high
+
+  * Remove mainpage.dox
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Wed, 15 Oct 2014 04:00:00 -0000
+
+ros-indigo-pr2-navigation-teleop (0.1.23-0saucy) saucy; urgency=high
+
+  * Updated maintainership
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Wed, 15 Oct 2014 04:00:00 -0000
+
+ros-indigo-pr2-navigation-teleop (0.1.22-0saucy) saucy; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Mon, 08 Sep 2014 04:00:00 -0000
+
+ros-indigo-pr2-navigation-teleop (0.1.21-0saucy) saucy; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Sat, 06 Sep 2014 04:00:00 -0000
+
+ros-indigo-pr2-navigation-teleop (0.1.20-0saucy) saucy; urgency=high
+
+  * 0.1.19
+  * Added changelogs
+  * 0.1.18
+  * Generating changelogs; preparing for release
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Sat, 06 Sep 2014 04:00:00 -0000
+
+ros-indigo-pr2-navigation-teleop (0.1.19-0saucy) saucy; urgency=high
+
+  * 0.1.18
+  * Generating changelogs; preparing for release
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Sat, 06 Sep 2014 04:00:00 -0000
+
+ros-indigo-pr2-navigation-teleop (0.1.18-0saucy) saucy; urgency=high
+
+  * catkinize packages
+  * Add ignores.
+  * Adding / to topics so that things work with a mux implementation that doesn't resolve topic names fully. These slashes should be removed once mux is fixed so that this node can be pushed into a namespace.
+  * Adding mux to pr2_navigation stack to coordinate with teleop... needs testing on robot
+  * Adding descriptions of each package to manifest files
+  * Copying pr2_navigation from staging area to stacks section of the repoistory
+  * Contributors: Austin Hendrix, Kei Okada, eitan
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Sat, 06 Sep 2014 04:00:00 -0000
+
+

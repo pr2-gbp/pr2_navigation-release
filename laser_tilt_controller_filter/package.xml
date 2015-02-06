@@ -1,8 +1,8 @@
 <package>
   <name>laser_tilt_controller_filter</name>
-  <version>0.1.22</version>
+  <version>0.1.25</version>
   <description>laser_tilt_controller_filter</description>
-  <maintainer email="eitan@willowgarage.com">Maintained by Eitan Marder-Eppstein</maintainer>
+  <maintainer email="dash@clearpathrobotics.com">Devon Ash</maintainer>
 
   <license>BSD</license>
 

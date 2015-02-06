@@ -1,14 +1,12 @@
 <package>
   <name>pr2_navigation</name>
-  <version>0.1.22</version>
+  <version>0.1.25</version>
   <description>The pr2_navigation stack holds common configuration options for running the</description>
-  <maintainer email="eitan@willowgarage.com">Maintained by Eitan Marder-Eppstein</maintainer>
+  <maintainer email="dash@clearpathrobotics.com">Dash</maintainer>
 
   <license>BSD</license>
 
   <url type="website">http://ros.org/wiki/pr2_navigation</url>
-
-  <author>Maintained by Eitan Marder-Eppstein</author>
 
   <buildtool_depend>catkin</buildtool_depend>
 

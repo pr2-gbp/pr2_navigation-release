@@ -1,8 +1,8 @@
 <package>
   <name>pr2_move_base</name>
-  <version>0.1.22</version>
+  <version>0.1.25</version>
   <description>pr2_move_base</description>
-  <maintainer email="eitan@willowgarage.com">Maintained by Eitan Marder-Eppstein</maintainer>
+  <maintainer email="dash@clearpathrobotics.com">Devon Ash</maintainer>
 
   <license>BSD</license>
 

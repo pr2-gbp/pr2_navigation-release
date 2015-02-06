@@ -8,15 +8,10 @@ find_package(PkgConfig)
 
 find_package(Boost REQUIRED COMPONENTS signals)
 
-pkg_check_modules(PC_EIGEN REQUIRED eigen)
 add_definitions(${PC_EIGEN_CFLAGS_OTHER})
 
 find_package( PCL REQUIRED )
 add_definitions(${PCL_DEFINITIONS})
-
-add_executable(sac_inc_ground_removal_node src/sac_inc_ground_removal_standalone.cpp src/sac/sac.cpp src/sac/ransac.cpp src/sac/sac_model.cpp src/sac/sac_model_line.cpp)
-include_directories(include/${PROJECT_NAME} ${Boost_INCLUDE_DIRS} ${PC_EIGEN_INCLUDE_DIRS} ${PCL_INCLUDE_DIRS}  ${caktin_INCLUDE_DIRS})
-target_link_libraries(sac_inc_ground_removal_node ${Boost_LIBRARIES} ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 
 catkin_package(
     DEPENDS  eigen
@@ -24,6 +19,11 @@ catkin_package(
     INCLUDE_DIRS include
     LIBRARIES
 )
+
+
+add_executable(sac_inc_ground_removal_node src/sac_inc_ground_removal_standalone.cpp src/sac/sac.cpp src/sac/ransac.cpp src/sac/sac_model.cpp src/sac/sac_model_line.cpp)
+include_directories(include/${PROJECT_NAME} ${Boost_INCLUDE_DIRS} ${PC_EIGEN_INCLUDE_DIRS} ${PCL_INCLUDE_DIRS}  ${caktin_INCLUDE_DIRS})
+target_link_libraries(sac_inc_ground_removal_node ${Boost_LIBRARIES} ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 
 install(DIRECTORY include/${PROJECT_NAME}/
    DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION})

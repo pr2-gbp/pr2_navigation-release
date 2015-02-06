@@ -1,0 +1,62 @@
+ros-indigo-laser-tilt-controller-filter (0.1.25-0trusty) trusty; urgency=high
+
+  * Add library now called after catkin_package
+  * Changed install from global to local install for the lib
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Fri, 06 Feb 2015 05:00:00 -0000
+
+ros-indigo-laser-tilt-controller-filter (0.1.24-0trusty) trusty; urgency=high
+
+  * Remove mainpage.dox
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Wed, 15 Oct 2014 04:00:00 -0000
+
+ros-indigo-laser-tilt-controller-filter (0.1.23-0trusty) trusty; urgency=high
+
+  * Updated maintainership
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Wed, 15 Oct 2014 04:00:00 -0000
+
+ros-indigo-laser-tilt-controller-filter (0.1.22-0trusty) trusty; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Mon, 08 Sep 2014 04:00:00 -0000
+
+ros-indigo-laser-tilt-controller-filter (0.1.21-0trusty) trusty; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Sat, 06 Sep 2014 04:00:00 -0000
+
+ros-indigo-laser-tilt-controller-filter (0.1.20-0trusty) trusty; urgency=high
+
+  * 0.1.19
+  * Added changelogs
+  * 0.1.18
+  * Generating changelogs; preparing for release
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Sat, 06 Sep 2014 04:00:00 -0000
+
+ros-indigo-laser-tilt-controller-filter (0.1.19-0trusty) trusty; urgency=high
+
+  * 0.1.18
+  * Generating changelogs; preparing for release
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Sat, 06 Sep 2014 04:00:00 -0000
+
+ros-indigo-laser-tilt-controller-filter (0.1.18-0trusty) trusty; urgency=high
+
+  * catkinize packages
+  * Add ignores.
+  * Pulling the laser_tilt_controller filter from trunk to cturtle
+  * Contributors: Austin Hendrix, Kei Okada, eitan
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Sat, 06 Sep 2014 04:00:00 -0000
+
+

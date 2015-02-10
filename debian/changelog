@@ -1,0 +1,76 @@
+ros-indigo-semantic-point-annotator (0.1.26-0saucy) saucy; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Tue, 10 Feb 2015 06:00:00 -0000
+
+ros-indigo-semantic-point-annotator (0.1.25-0saucy) saucy; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Fri, 06 Feb 2015 06:00:00 -0000
+
+ros-indigo-semantic-point-annotator (0.1.24-0saucy) saucy; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Wed, 15 Oct 2014 05:00:00 -0000
+
+ros-indigo-semantic-point-annotator (0.1.23-0saucy) saucy; urgency=high
+
+  * Updated maintainership
+  * Removed unnecessary package fix
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Wed, 15 Oct 2014 05:00:00 -0000
+
+ros-indigo-semantic-point-annotator (0.1.22-0saucy) saucy; urgency=high
+
+  * Removed dependency on pcl
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Mon, 08 Sep 2014 05:00:00 -0000
+
+ros-indigo-semantic-point-annotator (0.1.21-0saucy) saucy; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Sat, 06 Sep 2014 05:00:00 -0000
+
+ros-indigo-semantic-point-annotator (0.1.20-0saucy) saucy; urgency=high
+
+  * 0.1.19
+  * Added changelogs
+  * 0.1.18
+  * Generating changelogs; preparing for release
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Sat, 06 Sep 2014 05:00:00 -0000
+
+ros-indigo-semantic-point-annotator (0.1.19-0saucy) saucy; urgency=high
+
+  * 0.1.18
+  * Generating changelogs; preparing for release
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Sat, 06 Sep 2014 05:00:00 -0000
+
+ros-indigo-semantic-point-annotator (0.1.18-0saucy) saucy; urgency=high
+
+  * catkinize packages
+  * Add ignores.
+  * Removing some launch files that we don't need anymore
+  * Porting the ground removal stuff away from PointCloud to PointCloud2. Still needs testing though.
+  * Remove deprecated API usage
+  * eigen updates
+  * port to eigen3 and remove deprecated use of message size
+  * Unreal, the code actually depended on reading the parameters every cycle to work because it reset the value of z_threshold_ which got transformed to a different frame every cycle
+  * Removing reading of parameters from the cloud callback
+  * Changing in all three files instead of just one for empty cloud... this package is a mess... really should switch to new pcl stufff
+  * Empty clouds are sometimes expected and should be passed on... not errored on and dropped
+  * Copying pr2_navigation from staging area to stacks section of the repoistory
+  * Contributors: Austin Hendrix, Brian Gerkey, Eitan Marder-Eppstein, Kei Okada, Ken Conley, Wim Meeussen, eitan
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Sat, 06 Sep 2014 05:00:00 -0000
+
+

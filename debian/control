@@ -1,0 +1,12 @@
+Source: ros-indigo-pr2-navigation
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/pr2_navigation
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pr2-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-laser-tilt-controller-filter, ros-indigo-pr2-move-base, ros-indigo-pr2-navigation-config, ros-indigo-pr2-navigation-global, ros-indigo-pr2-navigation-local, ros-indigo-pr2-navigation-perception, ros-indigo-pr2-navigation-self-filter, ros-indigo-pr2-navigation-slam, ros-indigo-pr2-navigation-teleop, ros-indigo-semantic-point-annotator
+Description: The pr2_navigation stack holds common configuration options for running the

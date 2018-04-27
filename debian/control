@@ -1,0 +1,12 @@
+Source: ros-indigo-laser-tilt-controller-filter
+Section: misc
+Priority: extra
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-filters, ros-indigo-pluginlib, ros-indigo-pr2-msgs, ros-indigo-roscpp, ros-indigo-sensor-msgs
+Homepage: http://ros.org/wiki/laser_tilt_controller_filter
+Standards-Version: 3.9.2
+
+Package: ros-indigo-laser-tilt-controller-filter
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-filters, ros-indigo-pluginlib, ros-indigo-pr2-msgs, ros-indigo-roscpp, ros-indigo-sensor-msgs
+Description: laser_tilt_controller_filter

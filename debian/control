@@ -1,0 +1,12 @@
+Source: ros-melodic-pr2-navigation
+Section: misc
+Priority: extra
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://ros.org/wiki/pr2_navigation
+Standards-Version: 3.9.2
+
+Package: ros-melodic-pr2-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-dwa-local-planner, ros-melodic-laser-tilt-controller-filter, ros-melodic-pr2-move-base, ros-melodic-pr2-navigation-config, ros-melodic-pr2-navigation-global, ros-melodic-pr2-navigation-local, ros-melodic-pr2-navigation-perception, ros-melodic-pr2-navigation-self-filter, ros-melodic-pr2-navigation-slam, ros-melodic-pr2-navigation-teleop, ros-melodic-semantic-point-annotator
+Description: The pr2_navigation stack holds common configuration options for running the

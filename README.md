@@ -1,3 +1,37 @@
+## pr2_navigation (melodic) - 0.1.28-1
+
+The packages in the `pr2_navigation` repository were released into the `melodic` distro by running `/usr/bin/bloom-release pr2_navigation -r melodic -t melodic` on `Fri, 15 Nov 2019 07:35:36 -0000`
+
+These packages were released:
+- `laser_tilt_controller_filter`
+- `pr2_move_base`
+- `pr2_navigation`
+- `pr2_navigation_config`
+- `pr2_navigation_global`
+- `pr2_navigation_local`
+- `pr2_navigation_perception`
+- `pr2_navigation_self_filter`
+- `pr2_navigation_slam`
+- `pr2_navigation_teleop`
+- `semantic_point_annotator`
+
+Version of package(s) in repository `pr2_navigation`:
+
+- upstream repository: https://github.com/PR2/pr2_navigation.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.1.28-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.14`
+- rosdep version: `0.15.2`
+- rosdistro version: `0.7.5`
+- vcstools version: `0.1.42`
+
+
 ## pr2_navigation (kinetic) - 0.1.28-0
 
 The packages in the `pr2_navigation` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release pr2_navigation --track kinetic --rosdistro kinetic --override-release-repository-url https://github.com/pr2-gbp/pr2_navigation-release` on `Fri, 27 Apr 2018 08:11:59 -0000`

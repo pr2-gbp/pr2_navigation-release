@@ -1,0 +1,85 @@
+ros-melodic-pr2-navigation-teleop (0.1.28-1stretch) stretch; urgency=high
+
+  * Merge pull request #36 <https://github.com/pr2/pr2_navigation/issues/36> from k-okada/fix_catkin_depends
+    fixed CMake files for compile in kinetic
+  * updated maintainer
+  * fixed CMake files for compile in kinetic
+  * Contributors: David Feil-Seifer, Kei Okada
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Fri, 27 Apr 2018 00:00:00 -0000
+
+ros-melodic-pr2-navigation-teleop (0.1.27-1stretch) stretch; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Mon, 22 Jun 2015 00:00:00 -0000
+
+ros-melodic-pr2-navigation-teleop (0.1.26-1stretch) stretch; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Tue, 10 Feb 2015 00:00:00 -0000
+
+ros-melodic-pr2-navigation-teleop (0.1.25-1stretch) stretch; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Fri, 06 Feb 2015 00:00:00 -0000
+
+ros-melodic-pr2-navigation-teleop (0.1.24-1stretch) stretch; urgency=high
+
+  * Remove mainpage.dox
+  * Contributors: TheDash
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Wed, 15 Oct 2014 00:00:00 -0000
+
+ros-melodic-pr2-navigation-teleop (0.1.23-1stretch) stretch; urgency=high
+
+  * Updated maintainership
+  * Contributors: TheDash
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Wed, 15 Oct 2014 00:00:00 -0000
+
+ros-melodic-pr2-navigation-teleop (0.1.22-1stretch) stretch; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Mon, 08 Sep 2014 00:00:00 -0000
+
+ros-melodic-pr2-navigation-teleop (0.1.21-1stretch) stretch; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Sat, 06 Sep 2014 00:00:00 -0000
+
+ros-melodic-pr2-navigation-teleop (0.1.20-1stretch) stretch; urgency=high
+
+  * 0.1.19
+  * Added changelogs
+  * 0.1.18
+  * Generating changelogs; preparing for release
+  * Contributors: TheDash
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Sat, 06 Sep 2014 00:00:00 -0000
+
+ros-melodic-pr2-navigation-teleop (0.1.19-1stretch) stretch; urgency=high
+
+  * 0.1.18
+  * Generating changelogs; preparing for release
+  * Contributors: TheDash
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Sat, 06 Sep 2014 00:00:00 -0000
+
+ros-melodic-pr2-navigation-teleop (0.1.18-1stretch) stretch; urgency=high
+
+  * catkinize packages
+  * Add ignores.
+  * Adding / to topics so that things work with a mux implementation that doesn't resolve topic names fully. These slashes should be removed once mux is fixed so that this node can be pushed into a namespace.
+  * Adding mux to pr2_navigation stack to coordinate with teleop... needs testing on robot
+  * Adding descriptions of each package to manifest files
+  * Copying pr2_navigation from staging area to stacks section of the repoistory
+  * Contributors: Austin Hendrix, Kei Okada, eitan
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Sat, 06 Sep 2014 00:00:00 -0000
+
+

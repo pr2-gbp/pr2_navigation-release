@@ -1,0 +1,12 @@
+Source: ros-melodic-pr2-navigation-self-filter
+Section: misc
+Priority: extra
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), libassimp-dev, libbullet-dev, ros-melodic-catkin, ros-melodic-filters, ros-melodic-pcl-ros, ros-melodic-resource-retriever, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-tf, ros-melodic-urdf, ros-melodic-visualization-msgs
+Homepage: http://ros.org/wiki/pr2_navigation_self_filter
+Standards-Version: 3.9.2
+
+Package: ros-melodic-pr2-navigation-self-filter
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libassimp-dev, libbullet-dev, ros-melodic-filters, ros-melodic-pcl-ros, ros-melodic-resource-retriever, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-tf, ros-melodic-urdf, ros-melodic-visualization-msgs
+Description: Filters the robot's body out of point clouds.

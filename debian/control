@@ -1,0 +1,12 @@
+Source: ros-melodic-pr2-navigation-perception
+Section: misc
+Priority: extra
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-dynamic-reconfigure, ros-melodic-filters, ros-melodic-geometry-msgs, ros-melodic-laser-filters, ros-melodic-laser-geometry, ros-melodic-laser-tilt-controller-filter, ros-melodic-message-filters, ros-melodic-pcl-ros, ros-melodic-pr2-machine, ros-melodic-pr2-navigation-self-filter, ros-melodic-roscpp, ros-melodic-semantic-point-annotator, ros-melodic-sensor-msgs, ros-melodic-tf, ros-melodic-topic-tools
+Homepage: http://ros.org/wiki/pr2_navigation_perception
+Standards-Version: 3.9.2
+
+Package: ros-melodic-pr2-navigation-perception
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-dynamic-reconfigure, ros-melodic-filters, ros-melodic-geometry-msgs, ros-melodic-laser-filters, ros-melodic-laser-geometry, ros-melodic-laser-tilt-controller-filter, ros-melodic-message-filters, ros-melodic-pcl-ros, ros-melodic-pr2-machine, ros-melodic-pr2-navigation-self-filter, ros-melodic-roscpp, ros-melodic-semantic-point-annotator, ros-melodic-sensor-msgs, ros-melodic-tf, ros-melodic-topic-tools
+Description: This package holds navigation-specific sensor configuration options and launch files for the PR2.
